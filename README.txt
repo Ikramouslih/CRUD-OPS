@@ -49,7 +49,7 @@ http://localhost:8080/api/ajouterPersonne
 	"sexe": "Femme",
 	"email": "nom1@gmail.com",
 	"numeroTel": "+2126 66 66 66 66"
-	"adresse": "Hay Hassani",
+	"adresse": "Somewhere",
 	"situationFamiliale": "Célibataire"
 }
 
