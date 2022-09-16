@@ -40,7 +40,7 @@ http://localhost:8080/api/personnes
 http://localhost:8080/api/personnes/{id}
 
 #POST: 
-http://localhost:8080/api/ajouterPersonne
+http://localhost:8080/api/personnes
 {
 	"nom": "nom1",
 	"prenom": "prenom1",
@@ -57,7 +57,7 @@ http://localhost:8080/api/ajouterPersonne
 http://localhost:8080/api/personnes/{id}
 
 #PUT:
-http://localhost:8080/api/modifierPersonne/{id}
+http://localhost:8080/api/personnes/{id}
 
 
 
