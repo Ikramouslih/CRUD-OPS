@@ -44,7 +44,7 @@ export default function EditPersonne() {
         {
             personne.cin = personne.cin.toUpperCase();//to unify the input
             personne.numeroTel = personne.numeroTel.replace(/[^+\d]/g, '');//to unify the input, remove all chars except "+"
-            axios.put(`http://localhost:8080/api/modifierPersonne/${id}`, 
+            axios.put(`http://localhost:8080/api/personnes/${id}`, 
             null, 
             {params: {  nom: personne.nom , 
                         prenom: personne.prenom,
