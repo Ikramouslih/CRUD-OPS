@@ -54,7 +54,7 @@ export default function AddPersonne() {
         {
             personne.cin = personne.cin.toUpperCase();//to unify the input
             personne.numeroTel = personne.numeroTel.replace(/[^+\d]/g, '');//to unify the input
-            axios.post("http://localhost:8080/api/ajouterPersonne",personne)
+            axios.post("http://localhost:8080/api/personnes",personne)
                         .then(response =>
                             {
                                 if(response.data != null)
