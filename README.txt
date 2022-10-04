@@ -6,6 +6,7 @@ Form for personal information - A full stack API using CRUD operations (create, 
 	.Spring Boot : RESTful API
 	   *Spring 2.7.3
 	   *Java 17
+	   *Lombok
 	   *DB : PostgreSql
 	   *Test : Insomnia 
 	   *Dependencies : SpringWeb , PostgreSQL, Spring DATA JPA, Thymeleaf
